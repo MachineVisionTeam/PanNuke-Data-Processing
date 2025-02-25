@@ -12,12 +12,13 @@ The PanNuke dataset is a large-scale dataset for nuclei instance segmentation an
 
 ## Repository Structure
 
+```plaintext
 PanNuke-Data-Processing/
-├── README.md # This file
-├── organize_data.py # Script to organize the dataset into train/val splits
-├── celltypes.py # Script to extract specific cell types (e.g., neoplastic)
-├── patch.py # Script to generate image patches
-└── requirements.txt # List of Python dependencies
+├── README.md         # This file
+├── organize_data.py  # Script to organize the dataset into train/val splits
+├── celltypes.py      # Script to extract specific cell types (e.g., neoplastic)
+├── patch.py          # Script to generate image patches
+└── requirements.txt  # List of Python dependencies
 
 
 ## Dataset Preparation
