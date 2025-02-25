@@ -115,6 +115,8 @@ After running the script, the patches will be saved as follows:
 ```
 ![PanNuke Dataset](images/exact_size_viz_Bile-duct_train_image_1582_instance_170_0.png)
 
+![PanNuke Dataset](images/exact_size_viz_Pancreatic_train_image_1266_instance_211_0.png)
+
 ## Requirements
 
 To run the scripts, you need the following Python packages:
