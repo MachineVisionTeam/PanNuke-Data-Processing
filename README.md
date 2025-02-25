@@ -68,4 +68,99 @@ After running the script, the dataset will be organized as follows:
 └── ... (other tissue types)
 ```
 
+### Step 2: Extract Specific Cell Types
+
+The `celltypes.py` script extracts specific cell types (e.g., neoplastic cells) and their corresponding masks. It copies the relevant images and masks into new directories.
+
+#### Usage
+ ```
+python celltypes.py
+ ```
+
+#### Output Directory Structure
+
+After running the script, the extracted data will be saved as follows:
+
+```plaintext
+/mnt/storage2/PanNuke/neoplastic/
+├── neoplastic_images/ # Extracted neoplastic images
+└── neoplastic_masks/ # Extracted neoplastic masks
+```
+
+### Step 3: Generate Image Patches
+
+The `patch.py` script generates image patches at different resolutions (16x16, 32x32, 64x64) from the extracted images and masks.
+
+#### Usage
+ ```
+python patch.py
+ ```
+
+#### Output Directory Structure
+
+After running the script, the patches will be saved as follows:
+
+```plaintext
+/mnt/storage2/PanNuke/neoplastic/neoplastic_patch_dataset/
+├── original/
+│   ├── 16x16/                  # 16x16 image patches
+│   ├── 32x32/                  # 32x32 image patches
+│   └── 64x64/                  # 64x64 image patches
+└── annotation/
+    ├── 16x16/                  # 16x16 mask patches
+    ├── 32x32/                  # 32x32 mask patches
+    └── 64x64/                  # 64x64 mask patches
+```
+
+## Requirements
+
+To run the scripts, you need the following Python packages:
+
+*   numpy
+*   opencv-python
+*   scikit-image
+*   Pillow (PIL)
+*   tqdm
+*   PyYAML
+
+You can install the dependencies using:
+ ```
+pip install -r requirements.txt
+ ```
+
+## Usage Example
+
+1.  Clone the repository:
+
+    ```
+    git clone https://github.com/your-username/PanNuke-Data-Processing.git
+    cd PanNuke-Data-Processing
+    ```
+
+    **Note:** Replace `your-username` with your actual GitHub username.
+
+2.  Install the dependencies:
+
+    ```
+    pip install -r requirements.txt
+    ```
+
+3.  Download the PanNuke dataset `fold1` and place the `.npy` files in a directory of your choice.
+
+4.  Modify the file paths in `organize_data.py` to point to the correct locations of your downloaded `.npy` files.  The other scripts use hardcoded paths, so make sure your data matches those.
+
+5.  Run the scripts in order:
+
+    ```
+    python organize_data.py
+    python celltypes.py
+    python patch.py
+    ```
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
+
+
 
