@@ -113,6 +113,7 @@ After running the script, the patches will be saved as follows:
     ├── 32x32/                  # 32x32 mask patches
     └── 64x64/                  # 64x64 mask patches
 ```
+![PanNuke Dataset](images/pannuke1.png)
 
 ## Requirements
 
