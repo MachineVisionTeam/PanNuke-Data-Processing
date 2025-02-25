@@ -121,7 +121,6 @@ To run the scripts, you need the following Python packages:
 *   scikit-image
 *   Pillow (PIL)
 *   tqdm
-*   PyYAML
 
 You can install the dependencies using:
  ```
