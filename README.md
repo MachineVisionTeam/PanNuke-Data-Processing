@@ -19,7 +19,7 @@ PanNuke-Data-Processing/
 ├── celltypes.py      # Script to extract specific cell types (e.g., neoplastic)
 ├── patch.py          # Script to generate image patches
 └── requirements.txt  # List of Python dependencies
-
+```
 
 ## Dataset Preparation
 
