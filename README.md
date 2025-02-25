@@ -31,7 +31,7 @@ The PanNuke dataset is organized into 3 folds (`fold1`, `fold2`, `fold3`). This 
 *   `masks.npy`: NumPy array of masks.
 *   `types.npy`: NumPy array of tissue types.
 
-**Important:** You must download the PanNuke dataset `fold1` separately from the official source (https://warwick.ac.uk/fac/cross_fac/tissueimageanalytics/data/panuke/)  and place the `images.npy`, `masks.npy`, and `types.npy` files in a directory accessible to the scripts.
+**Important:** You must download the PanNuke dataset `fold1` separately from the official source (https://warwick.ac.uk/fac/cross_fac/tia/data/pannuke)  and place the `images.npy`, `masks.npy`, and `types.npy` files in a directory accessible to the scripts.
 
 ### Step 1: Organize the Dataset
 
