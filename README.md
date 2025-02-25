@@ -2,9 +2,7 @@
 
 This repository contains scripts to process the PanNuke dataset, organize it into train and validation sets, and generate image patches for further analysis. The PanNuke dataset consists of 19 tissue types with 5 class types, and this repository focuses on processing `fold1` of the dataset.
 
-<p align="center">
-  <img src="PanNuke-Data-Processing/images/pannuke.png" alt="PanNuke Dataset" width="600">
-</p>
+![PanNuke Dataset](images/pannuke.png)
 
 ## Overview
 
