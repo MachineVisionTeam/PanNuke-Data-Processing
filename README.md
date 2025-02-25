@@ -48,4 +48,23 @@ The `organize_data.py` script organizes the dataset into train and validation sp
 
 After running the script, the dataset will be organized as follows:
 
+/mnt/storage2/PanNuke/fold_01/
+├── Adrenal_gland/
+│   ├── train/
+│   │   ├── images/         # Training images
+│   │   └── masks/
+│   │       ├── neoplastic/     # Neoplastic cell masks
+│   │       ├── inflammatory/   # Inflammatory cell masks
+│   │       └── ... (other cell types)
+│   └── val/
+│       ├── images/         # Validation images
+│       └── masks/
+│           ├── neoplastic/     # Neoplastic cell masks
+│           ├── inflammatory/   # Inflammatory cell masks
+│           └── ... (other cell types)
+├── Bile-duct/
+│   └── ... 
+└── ... (other tissue types)
+
+
 
