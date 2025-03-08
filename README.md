@@ -137,11 +137,9 @@ pip install -r requirements.txt
 1.  Clone the repository:
 
     ```
-    git clone https://github.com/your-username/PanNuke-Data-Processing.git
+    git clone https://github.com/chandana-koganti14/PanNuke-Data-Processing.git
     cd PanNuke-Data-Processing
     ```
-
-    **Note:** Replace `your-username` with your actual GitHub username.
 
 2.  Install the dependencies:
 
