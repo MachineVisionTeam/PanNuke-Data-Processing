@@ -4,6 +4,44 @@ This repository contains scripts to process the PanNuke dataset, organize it int
 
 ![PanNuke Dataset](images/pannuke1.png)
 
+## Citations  
+If you use the PanNuke dataset or code in your research, please cite the following papers:  
+
+### PanNuke: An Open Pan-Cancer Histology Dataset for Nuclei Instance Segmentation and Classification  
+**Jevgenij Gamper, Navid Alemi Koohbanani, Ksenija Benes, Ali Khuram, Nasir Rajpoot**  
+*European Congress on Digital Pathology, 2019, Pages 11–19.*  
+[DOI: 10.1007/978-3-030-23937-4_2](https://doi.org/10.1007/978-3-030-23937-4_2)  
+
+### PanNuke Dataset Extension, Insights and Baselines  
+**Jevgenij Gamper, Navid Alemi Koohbanani, Simon Graham, Mostafa Jahanifar, Syed Ali Khurram, Ayesha Azam, Katherine Hewitt, Nasir Rajpoot**  
+*arXiv preprint arXiv:2003.10778, 2020.*  
+[DOI: 10.48550/arXiv.2003.10778](https://doi.org/10.48550/arXiv.2003.10778)  
+
+---
+### BibTeX Entries
+
+For convenience, here are the BibTeX entries for inclusion in academic papers:
+
+```bibtex
+@inproceedings{gamper2019pannuke,
+  title={PanNuke: an open pan-cancer histology dataset for nuclei instance segmentation and classification},
+  author={Gamper, Jevgenij and Koohbanani, Navid Alemi and Benes, Ksenija and Khuram, Ali and Rajpoot, Nasir},
+  booktitle={European Congress on Digital Pathology},
+  pages={11--19},
+  year={2019},
+  organization={Springer},
+  doi={10.1007/978-3-030-23937-4_2}
+}
+
+@article{gamper2020pannuke,
+  title={PanNuke Dataset Extension, Insights and Baselines},
+  author={Gamper, Jevgenij and Koohbanani, Navid Alemi and Graham, Simon and Jahanifar, Mostafa and Khurram, Syed Ali and Azam, Ayesha and Hewitt, Katherine and Rajpoot, Nasir},
+  journal={arXiv preprint arXiv:2003.10778},
+  year={2020},
+  doi={10.48550/arXiv.2003.10778}
+}
+```
+
 ## Overview
 
 The PanNuke dataset is a large-scale dataset for nuclei instance segmentation and classification in histology images. It contains images and masks for 19 different tissue types, with 5 class types: `neoplastic`, `inflammatory`, `connective`, `dead`, and `epithelial`. This repository provides scripts to:
