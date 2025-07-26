@@ -7,6 +7,10 @@ This repository contains scripts to process the PanNuke dataset, organize it int
 ## Citations  
 If you use the PanNuke dataset or code in your research, please cite the following papers:  
 
+### Task-Ready PanNuke and NuCLS Datasets: Reorganization, Synthetic Data Generation, and Experimental Evaluation.
+
+**Koganti, S.C., Yellu, S., Yun, J., & Lee, S.** (2025). Task-Ready PanNuke and NuCLS Datasets: Reorganization, Synthetic Data Generation, and Experimental Evaluation. *IEEE Access*, **13**, 125275–125286. https://doi.org/10.1109/ACCESS.2025.3589477
+
 ### PanNuke: An Open Pan-Cancer Histology Dataset for Nuclei Instance Segmentation and Classification  
 **Jevgenij Gamper, Navid Alemi Koohbanani, Ksenija Benes, Ali Khuram, Nasir Rajpoot**  
 *European Congress on Digital Pathology, 2019, Pages 11–19.*  
@@ -23,6 +27,16 @@ If you use the PanNuke dataset or code in your research, please cite the followi
 For convenience, here are the BibTeX entries for inclusion in academic papers:
 
 ```bibtex
+@article{11080424,
+  author={Koganti, Sai Chandana and Yellu, Siri and Yun, Jihoon and Lee, Sanghoon},
+  journal={IEEE Access}, 
+  title={Task-Ready PanNuke and NuCLS Datasets: Reorganization, Synthetic Data Generation, and Experimental Evaluation}, 
+  year={2025},
+  volume={13},
+  pages={125275-125286},
+  doi={10.1109/ACCESS.2025.3589477}
+}
+
 @inproceedings{gamper2019pannuke,
   title={PanNuke: an open pan-cancer histology dataset for nuclei instance segmentation and classification},
   author={Gamper, Jevgenij and Koohbanani, Navid Alemi and Benes, Ksenija and Khuram, Ali and Rajpoot, Nasir},
